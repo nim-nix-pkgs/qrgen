@@ -31,6 +31,62 @@
   inputs."qrgen-v1_0_0".inputs.nixpkgs.follows = "nixpkgs";
   inputs."qrgen-v1_0_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."qrgen-v1_0_1".dir   = "v1_0_1";
+  inputs."qrgen-v1_0_1".owner = "nim-nix-pkgs";
+  inputs."qrgen-v1_0_1".ref   = "master";
+  inputs."qrgen-v1_0_1".repo  = "qrgen";
+  inputs."qrgen-v1_0_1".type  = "github";
+  inputs."qrgen-v1_0_1".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v1_0_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v2_0_0".dir   = "v2_0_0";
+  inputs."qrgen-v2_0_0".owner = "nim-nix-pkgs";
+  inputs."qrgen-v2_0_0".ref   = "master";
+  inputs."qrgen-v2_0_0".repo  = "qrgen";
+  inputs."qrgen-v2_0_0".type  = "github";
+  inputs."qrgen-v2_0_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v2_0_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v2_1_0".dir   = "v2_1_0";
+  inputs."qrgen-v2_1_0".owner = "nim-nix-pkgs";
+  inputs."qrgen-v2_1_0".ref   = "master";
+  inputs."qrgen-v2_1_0".repo  = "qrgen";
+  inputs."qrgen-v2_1_0".type  = "github";
+  inputs."qrgen-v2_1_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v2_1_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v2_1_1".dir   = "v2_1_1";
+  inputs."qrgen-v2_1_1".owner = "nim-nix-pkgs";
+  inputs."qrgen-v2_1_1".ref   = "master";
+  inputs."qrgen-v2_1_1".repo  = "qrgen";
+  inputs."qrgen-v2_1_1".type  = "github";
+  inputs."qrgen-v2_1_1".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v2_1_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v2_2_0".dir   = "v2_2_0";
+  inputs."qrgen-v2_2_0".owner = "nim-nix-pkgs";
+  inputs."qrgen-v2_2_0".ref   = "master";
+  inputs."qrgen-v2_2_0".repo  = "qrgen";
+  inputs."qrgen-v2_2_0".type  = "github";
+  inputs."qrgen-v2_2_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v2_2_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v2_2_1".dir   = "v2_2_1";
+  inputs."qrgen-v2_2_1".owner = "nim-nix-pkgs";
+  inputs."qrgen-v2_2_1".ref   = "master";
+  inputs."qrgen-v2_2_1".repo  = "qrgen";
+  inputs."qrgen-v2_2_1".type  = "github";
+  inputs."qrgen-v2_2_1".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v2_2_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."qrgen-v3_0_0".dir   = "v3_0_0";
+  inputs."qrgen-v3_0_0".owner = "nim-nix-pkgs";
+  inputs."qrgen-v3_0_0".ref   = "master";
+  inputs."qrgen-v3_0_0".repo  = "qrgen";
+  inputs."qrgen-v3_0_0".type  = "github";
+  inputs."qrgen-v3_0_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."qrgen-v3_0_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
